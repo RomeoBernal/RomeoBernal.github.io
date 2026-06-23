@@ -214,6 +214,20 @@ section { padding: 64px 0; position: relative; }
 }
 .contact-links a svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--cyan); }
 .contact-links a:hover { color: var(--cyan); border-color: var(--cyan); }
+.contact-email-row {
+  display: flex; align-items: center; gap: 12px;
+  border: 1px solid var(--line); border-radius: 4px; padding: 12px 18px;
+}
+.contact-email-row svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--cyan); }
+.contact-email-text { font-family: var(--mono); font-size: 14px; color: var(--muted); flex: 1; text-align: left; }
+.btn-copy {
+  background: none; border: 1px solid var(--line); border-radius: 4px;
+  color: var(--faint); cursor: pointer; padding: 4px 8px; display: flex; align-items: center;
+  transition: color .2s, border-color .2s;
+}
+.btn-copy svg { width: 15px; height: 15px; }
+.btn-copy:hover { color: var(--cyan); border-color: var(--cyan); }
+.btn-copy.copied { color: var(--cyan); border-color: var(--cyan); }
 
 footer { border-top: 1px solid var(--line); padding: 28px 0; }
 .foot-inner {
