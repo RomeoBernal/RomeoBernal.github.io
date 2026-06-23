@@ -205,6 +205,15 @@ section { padding: 64px 0; position: relative; }
 }
 .contact-box h2 { font-family: var(--display); font-weight: 700; font-size: clamp(26px, 5vw, 40px); margin: 0 0 12px; }
 .contact-box p { color: var(--muted); margin: 0 auto 28px; max-width: 46ch; }
+.contact-links { list-style: none; margin: 0 auto; padding: 0; display: flex; flex-direction: column; gap: 14px; max-width: 360px; }
+.contact-links a {
+  display: flex; align-items: center; gap: 12px;
+  font-family: var(--mono); font-size: 14px; color: var(--muted);
+  border: 1px solid var(--line); border-radius: 4px; padding: 12px 18px;
+  transition: color .2s, border-color .2s;
+}
+.contact-links a svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--cyan); }
+.contact-links a:hover { color: var(--cyan); border-color: var(--cyan); }
 
 footer { border-top: 1px solid var(--line); padding: 28px 0; }
 .foot-inner {
