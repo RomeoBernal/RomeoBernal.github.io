@@ -28,5 +28,11 @@ const PROJECTS = [
     stack: ["Scala", "Azure"],
     repo: "https://github.com/RomeoBernal"
   },
-
+  {
+    title: "Gestor de Concesionario",
+    category: "Estructuras de Datos",
+    description: "Simulador por consola de la logística de distribución de coches de una fábrica a sus concesionarios. Implementación desde cero de los TAD clásicos (pila, cola, listas enlazadas y árbol binario de búsqueda) sin apoyarse en la STL, integrados en una simulación completa con menú interactivo y consultas eficientes sobre el ABB.",
+    stack: ["C++"],
+    repo: "https://github.com/RomeoBernal"
+  },
 ];
