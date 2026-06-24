@@ -24,7 +24,7 @@ const PROJECTS = [
   {
     title: "EarthInvaders",
     category: "Concurrencia",
-    description: "Videojuego en Scala que aplica programación funcional y concurrente. Gestión de estado y eventos en tiempo real con un enfoque funcional además de integración con cloud (Azure) para crar una tabla de puntuaciones entre jugadores.",
+    description: "Videojuego desarrollado en Scala aplicando programación funcional y concurrente. Gestión de estado y eventos en tiempo real con enfoque funcional, e integración con la nube (Azure) para desplegar una tabla de puntuaciones compartida entre jugadores en un servidor.",
     stack: ["Scala", "Azure"],
     repo: "https://github.com/RomeoBernal"
   },
